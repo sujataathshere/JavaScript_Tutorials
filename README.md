@@ -35,6 +35,7 @@
         let salary = 20000.500;
     ```
     2. String
+    - JavaScript strings are immutable.
     ```js
         let fullName = "Sujata Athshere";   
     ```
