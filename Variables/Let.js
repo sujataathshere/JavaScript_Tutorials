@@ -9,3 +9,19 @@ let schoolName = "Swami Muktanand Vidyayala, Yeola"
 schoolName = "Janata Vidyayala, Yeola"
 
 console.log(schoolName);
+
+{
+    // 1st school info
+let schoolName = "Vitty International School"
+let roleNumber = 10
+console.log(schoolName);
+console.log(roleNumber);
+}
+
+{
+    // 2nd school info
+let schoolName = "De Paul English Medium School"
+let roleNumber = 10
+console.log(schoolName);
+console.log(roleNumber);
+}
