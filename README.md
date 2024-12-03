@@ -53,7 +53,7 @@
         let salary;
     ```
     5. Null
-    - Variable is declared bt have define with null value
+    - Variable is declared bt initially define with null value
     ```js
         let salary = null;
     ```
