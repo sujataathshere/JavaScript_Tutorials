@@ -58,7 +58,11 @@
         let salary = null;
     ```
     6. BigInt
-
+    - You can store and operate on large integers
+    - A BigInt is created by appending n to the end of an integer
+    ```js
+        let salary = null;
+    ```
     7. Symbol
 
 2. Non-Primitive Data Types
