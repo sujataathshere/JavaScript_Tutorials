@@ -61,8 +61,24 @@
     - You can store and operate on large integers
     - A BigInt is created by appending n to the end of an integer
     ```js
-        let salary = null;
+        let x = BigInt("123");
+        console.log(x); //123n
+        console.log(typeof x); // bigint
     ```
     7. Symbol
-
+    ```js
+        let y = Symbol("Hello");
+        console.log(y); //
+        console.log(typeof y); // symbol
+    ```
 2. Non-Primitive Data Types
+    1. Object : Arrays | Function
+    - It is a collection of diff variables
+    ```js
+    const student = {
+        fullName : "Aditya Chaula",
+        age : 20,
+        cgpa : 8.2,
+        isPass : true,
+    };
+    ```
