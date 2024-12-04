@@ -62,7 +62,7 @@
     - A BigInt is created by appending n to the end of an integer
     ```js
         let x = BigInt("123");
-        console.log(x); //123n
+        console.log(x); // 123n
         console.log(typeof x); // bigint
     ```
     7. Symbol
@@ -81,4 +81,7 @@
         cgpa : 8.2,
         isPass : true,
     };
+    console.log(student); // Display student information
+    console.log(student["age"]); // To access the age value
+    console.log(student.age); // To access the age value
     ```
