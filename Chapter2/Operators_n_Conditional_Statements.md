@@ -46,3 +46,35 @@ console.log(b--); // 2->2
 ```
 ## Assignment operators
 - An assignment operator assigns a value to its left operand based on the value of its right operand.
+```js
+let a = 5;
+let b = 2;
+
+console.log("a += a : ",a += a); // 10
+console.log("b *= b : ",b *= b); // 4
+console.log("a -= a : ",a -= a); // 0
+console.log("b /= b : ",b /= b); // 1
+```
+## Comparison operators
+- A comparison operator compares its operands and returns a logical value based on whether the comparison is true.
+1. Equal to ==
+- Check only values
+2. Not equal to !=
+- Check only values
+3. Equal to & type ===
+- Check values & data types also
+4. Not equal to & type !==
+- Check values & data types also
+5. Greater than >
+6. Less than <
+7. Greater than equal to >=
+8. Less than equal to <=
+```js
+let a = 5;
+let b = "5";
+
+console.log(5 == "5", a==b);
+console.log(5 != "5", a!=b);
+console.log(5 === "5", a===b);
+console.log(5 !== "5", a!==b);
+```
