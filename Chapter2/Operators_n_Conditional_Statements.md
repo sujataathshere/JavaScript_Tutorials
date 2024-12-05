@@ -30,17 +30,19 @@ console.log(a**b); // 5^2 = 25
 ## Unary Operators
 1. Pre Increment
 ```js
-console.log(++a); // 6
+console.log(++a); // 5->6
 ```
 2. Post Increment
 ```js
-console.log(a++); // 5
+console.log(a++); // 5->5
 ```
 3. Pre Decrement
 ```js
-console.log(--b); // 1
+console.log(--b); // 2->1
 ```
 4. Post Decrement
 ```js
-console.log(b--); // 2
+console.log(b--); // 2->2
 ```
+## Assignment operators
+- An assignment operator assigns a value to its left operand based on the value of its right operand.
