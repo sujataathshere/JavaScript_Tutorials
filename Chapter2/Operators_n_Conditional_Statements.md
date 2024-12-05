@@ -95,3 +95,4 @@ if(condition){
     // Some Statement
 }
 ```
+2. If-Else Statement
