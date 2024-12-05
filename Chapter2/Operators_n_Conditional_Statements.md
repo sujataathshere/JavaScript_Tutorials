@@ -78,3 +78,16 @@ console.log(5 != "5", a!=b);
 console.log(5 === "5", a===b);
 console.log(5 !== "5", a!==b);
 ```
+## Logical operators
+- Logical operators are typically used with Boolean (logical) values; when they are, they return a Boolean value. 
+1. Logical AND &&
+2. Logical OR ||
+3. Logical NOT !
+```js
+let a = 5;
+let b = 6;
+
+console.log(5&&6, a&&b);
+console.log(5||6, a||b);
+console.log(!false, !(a>b));
+```
