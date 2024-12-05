@@ -96,3 +96,28 @@ if(condition){
 }
 ```
 2. If-Else Statement
+```js
+if(condition){
+    // Some Statement
+}else{
+    // Some Statement
+}
+```
+3. Else-If Statement
+```js
+if(condition){
+    // Some Statement
+} else if(condition){
+    // Some Statement
+} else{
+    // Some Statement
+}
+```
+4. Ternary Operators
+- condition ? true : false
+```js
+let age = 16;
+let result = age>18 ? "Adult" : "Not Adult";
+
+console.log(result);
+```
