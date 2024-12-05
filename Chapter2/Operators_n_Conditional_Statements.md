@@ -57,14 +57,10 @@ console.log("b /= b : ",b /= b); // 1
 ```
 ## Comparison operators
 - A comparison operator compares its operands and returns a logical value based on whether the comparison is true.
-1. Equal to ==
-- Check only values
-2. Not equal to !=
-- Check only values
-3. Equal to & type ===
-- Check values & data types also
-4. Not equal to & type !==
-- Check values & data types also
+1. Equal to == : Check only values
+2. Not equal to != : Check only values
+3. Equal to & type === : Check values & data types also
+4. Not equal to & type !== : Check values & data types also
 5. Greater than >
 6. Less than <
 7. Greater than equal to >=
@@ -90,4 +86,12 @@ let b = 6;
 console.log(5&&6, a&&b);
 console.log(5||6, a||b);
 console.log(!false, !(a>b));
+```
+## Conditional Statements
+1. If Statement
+- To implement some condition in the code
+```js
+if(condition){
+    // Some Statement
+}
 ```
