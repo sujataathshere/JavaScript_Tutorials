@@ -9,6 +9,7 @@ for(Initialization; Condition; Increment/Dcrement){
 ```
 2. Infinite Loop
 - A loop that never ends
+
 3. While Loop
 ```js
 Initialization;
@@ -17,4 +18,13 @@ while(Condition){
     Increment/Dcrement;
     // Some statement
 }
+```
+4. Do While Loop
+```js
+Initialization;
+Do{
+    // Some statement
+    Increment/Dcrement;
+    // Some statement
+}while(Condition);
 ```
