@@ -36,7 +36,7 @@ for(let value of strVar){
 }
 ```
 6. For-In Loop
-- Used for Objects
+- Used for arrays & Objects
 ```js
 for(let key in strVar){
     // Some statement
