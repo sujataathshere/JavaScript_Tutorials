@@ -7,10 +7,7 @@ for(Initialization; Condition; Increment/Dcrement){
     // Some statement
 }
 ```
-2. Infinite Loop
-- A loop that never ends
-
-3. While Loop
+2. While Loop
 ```js
 Initialization;
 while(Condition){
@@ -19,7 +16,7 @@ while(Condition){
     // Some statement
 }
 ```
-4. Do-While Loop
+3. Do-While Loop
 ```js
 Initialization;
 Do{
@@ -28,14 +25,14 @@ Do{
     // Some statement
 }while(Condition);
 ```
-5. For-Of Loop
+4. For-Of Loop
 - Used for strings & arrays
 ```js
 for(let value of strVar){
     // Some statement
 }
 ```
-6. For-In Loop
+5. For-In Loop
 - Used for arrays & Objects
 ```js
 for(let key in strVar){
