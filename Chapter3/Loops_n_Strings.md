@@ -19,7 +19,7 @@ while(Condition){
     // Some statement
 }
 ```
-4. Do While Loop
+4. Do-While Loop
 ```js
 Initialization;
 Do{
@@ -27,4 +27,18 @@ Do{
     Increment/Dcrement;
     // Some statement
 }while(Condition);
+```
+5. For-Of Loop
+- Used for strings & arrays
+```js
+for(let value of strVar){
+    // Some statement
+}
+```
+6. For-In Loop
+- Used for Objects
+```js
+for(let key in strVar){
+    // Some statement
+}
 ```
