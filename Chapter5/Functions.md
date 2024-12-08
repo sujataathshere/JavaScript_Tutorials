@@ -14,6 +14,12 @@ msgFunction("I Love JavaScript"); // Argument
 ## Arrow Functions
 - Compact way of writing a function
 ```js
+// Without parameter
+const printHello = () => {
+    console.log("Hello");
+}
+
+// With parameter
 const functionName = (param1,..) => {
     // Some Statement
 }
