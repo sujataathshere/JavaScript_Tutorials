@@ -49,3 +49,11 @@ let newArray = arr.map( (val) => {
     return val*2;
 });
 ```
+2. Filter()
+- Creates a new array of elements that give true for a condition/filter.
+- Eg. All even elements.
+```js
+let newArray = arr.filter( (val) => {
+    return val%2 == 0;
+})
+```
