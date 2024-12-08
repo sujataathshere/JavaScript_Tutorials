@@ -40,3 +40,12 @@ array.forEach ( (value, index, array) => {
 - Those function passed as an argument to another function.
 - Those function return function as a value
 - Eg. forEach Loop
+
+## Some More Array Methods
+1. map()
+- Creates a new array with the results of some operatopn. The value its callback returns are used to form new array
+```js
+let newArray = arr.map( (val) => {
+    return val*2;
+});
+```
