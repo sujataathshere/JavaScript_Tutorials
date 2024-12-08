@@ -45,15 +45,24 @@ array.forEach ( (value, index, array) => {
 1. map()
 - Creates a new array with the results of some operatopn. The value its callback returns are used to form new array
 ```js
+let arr = [1, 2, 3, 4, 5];
 let newArray = arr.map( (val) => {
     return val*2;
 });
+// OUT-PUT : 2, 2, 6, 8, 10
 ```
-2. Filter()
+2. filter()
 - Creates a new array of elements that give true for a condition/filter.
 - Eg. All even elements.
 ```js
+let arr = [1, 2, 3, 4, 5];
 let newArray = arr.filter( (val) => {
-    return val%2 == 0;
+    return val%2 === 0;
 })
+// OUT-PUT : 2, 4
+```
+3. reduce()
+- Performs some operations & reduces the array to a single value. It returns that single value.
+```js
+
 ```
