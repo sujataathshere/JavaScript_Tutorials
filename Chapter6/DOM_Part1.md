@@ -46,17 +46,17 @@ console.log(document.head); // print all head code
 - document.querySelectorAll("myId / myClass / tag") 
 
 ## Properties
-1. tagName :
-2. innerText :
-3. innerHTML :
-4. textContent :
+1. tagName : returns tag for element nodes
+2. innerText : returns the "text content" of the element & all its children
+3. innerHTML : returns the "plain text or HTML contents" in the element
+4. textContent : returns textual content even for hidden elements
 
 ## DOM Tree
 1. text Node
 2. comment Node
 3. element Node
 
-### Properties
+## Properties
 1. firstChild
 2. lastChild
 3. children
