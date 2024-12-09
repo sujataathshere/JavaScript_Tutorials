@@ -1,0 +1,13 @@
+#heading{
+    color: blue;
+}
+#myId{
+    color: red;
+}
+.myClass{
+    font-family: monospace;
+}
+button{
+    background-color: greenyellow;
+    color: blue;
+}

@@ -21,6 +21,42 @@ console.log(document.head); // print all head code
 * window -> document -> html -> head, body -> (meta, title, link, etc), (div, script, etc)
 
 ## DOM Manipulation
-1. id : document.getElementById("myId")
-2. class : document.getElementByClassName("myClass")
-3. tag : document.getElementByTagName("p")
+1. id 
+- Used on single element
+- It returns string that specifies the ID value.
+- Incase id doesn't match, it returns null
+- document.getElementById("myId")
+
+2. class 
+- Used on multiple elements
+- It returns HTML Collections
+- Incase class doesn't match, it returns empty HTML Collections with zero length
+- document.getElementsByClassName("myClass")
+
+3. tag 
+- Using tagname we can access the elements.
+- document.getElementByTagName("p")
+
+## Query Selector 
+- Its a better way to access the elements
+- It returns a NodeList
+<!-- Returns first element -->
+- document.querySelector("myId / myClass / tag") 
+<!-- Returns a NodeList -->
+- document.querySelectorAll("myId / myClass / tag") 
+
+## Properties
+1. tagName :
+2. innerText :
+3. innerHTML :
+4. textContent :
+
+## DOM Tree
+1. text Node
+2. comment Node
+3. element Node
+
+### Properties
+1. firstChild
+2. lastChild
+3. children
