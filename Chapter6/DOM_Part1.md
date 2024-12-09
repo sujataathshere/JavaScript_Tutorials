@@ -21,28 +21,28 @@ console.log(document.head); // print all head code
 * window -> document -> html -> head, body -> (meta, title, link, etc), (div, script, etc)
 
 ## DOM Manipulation
-1. id 
+1. id selector
 - Used on single element
 - It returns string that specifies the ID value.
 - Incase id doesn't match, it returns null
 - document.getElementById("myId")
 
-2. class 
+2. class selector
 - Used on multiple elements
 - It returns HTML Collections
 - Incase class doesn't match, it returns empty HTML Collections with zero length
 - document.getElementsByClassName("myClass")
 
-3. tag 
+3. tag selector
 - Using tagname we can access the elements.
 - document.getElementByTagName("p")
 
 ## Query Selector 
 - Its a better way to access the elements
 - It returns a NodeList
-<!-- Returns first element -->
+- querySelector returns first matching element
 - document.querySelector("myId / myClass / tag") 
-<!-- Returns a NodeList -->
+- querySelectorAll returns all matching element in NodeList form 
 - document.querySelectorAll("myId / myClass / tag") 
 
 ## Properties

@@ -2,7 +2,8 @@
 let idRef = document.getElementById("myId");
 // console.log(idRef);
 console.dir(idRef);
-// We can access heading
+
+// We can access h1 element through heading id
 let heading = document.getElementById("heading");
 console.dir(heading);
 
