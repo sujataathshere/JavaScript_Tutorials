@@ -10,10 +10,18 @@
 - `element.style.backgroundColor = "red";`
 
 ## Insert Elements
-1. append
-2. prepend
-3. before
-4. after
+1. Append
+- Adds at the end of node(inside)
+- `node.append(el);`
+2. Prepend
+- Adds at the start of node(inside)
+- `node.prepend(el)`
+3. Before
+- Adds before the node(outside)
+- `node.before(el)`
+4. After
+- Adds after the node(outside)
+- `node.after(el)`
 
 ## Delete Element
-1. remove
+1. Remove
