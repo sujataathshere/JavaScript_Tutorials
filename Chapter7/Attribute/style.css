@@ -1,0 +1,17 @@
+#nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    color: white;
+}
+.box:hover{
+    border:border-box;
+    border: 1.5px solid white;
+    padding: 5px 10px;
+}
+.para{
+    font-size: larger;
+    font-family:cursive;
+    color: cadetblue;
+    font-weight: 700;
+}

@@ -1,3 +1,5 @@
+console.log("********* Query Selectors *********");
+
 // To access 1st matching elements through class
 let firstElement = document.querySelector(".myClass");
 console.dir(firstElement);
@@ -12,5 +14,7 @@ console.dir(allElements);
 let divChildrens = document.querySelector("div").children;
 console.log("Div Childrens :",divChildrens);
 
-// It returns text node
-let divLastChild = document.querySelector("div").lastChild;
+// It returns all divs/node list
+let div = document.querySelectorAll(".myClass");
+console.log("firstElementChild :",div[1].firstElementChild);
+console.log("div :",div[1].lastChild);

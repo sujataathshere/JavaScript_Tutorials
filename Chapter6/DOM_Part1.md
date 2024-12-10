@@ -56,7 +56,11 @@ console.log(document.head); // print all head code
 2. comment Node
 3. element Node
 
-## Properties
-1. firstChild
-2. lastChild
-3. children
+## Common Use Cases of Node
+- Navigating DOM trees to find specific child nodes.
+- Accessing or manipulating the first-child/last-child of an element.
+- Differentiating between element nodes and text/comment nodes.
+- Differentiating between node types for custom logic.
+* Children : The children property is used to access the child elements of a specified DOM element. It only returns element nodes (ignoring text, comment, or other non-element nodes).
+* First Child : The firstChild property is used to access the first child node of a specified DOM element. This node could be any type, such as an element node, text node, or comment node.
+* Last Child : The lastChild property is used to access the last child node of a specified DOM element. Like firstChild, it can return any type of node, including text nodes, comment nodes, or element nodes.
