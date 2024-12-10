@@ -15,13 +15,15 @@
 - `node.append(el);`
 2. Prepend
 - Adds at the start of node(inside)
-- `node.prepend(el)`
+- `node.prepend(el);`
 3. Before
 - Adds before the node(outside)
-- `node.before(el)`
+- `node.before(el);`
 4. After
 - Adds after the node(outside)
-- `node.after(el)`
+- `node.after(el);`
 
-## Delete Element
+## Delete Elements
 1. Remove
+- Removes the node(element)
+- `node.remove();`
