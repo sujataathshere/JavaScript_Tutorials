@@ -7,3 +7,13 @@
 4. Print event & many more
 
 * First preference always goes to js event handler code NOT to a inline event handler
+
+## Event Object
+- It is a special object that has details about the event.
+- All event handlers have access to the Event Object's properties & methods.
+- `event.type | event.target | event.clientX | event.clientY`
+```js
+node.event = (e) => {
+    // handle here
+}
+```
