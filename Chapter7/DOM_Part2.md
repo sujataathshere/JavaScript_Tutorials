@@ -27,3 +27,6 @@
 1. Remove
 - Removes the node(element)
 - `node.remove();`
+
+## appendChild() ??
+## removeChild() ??
