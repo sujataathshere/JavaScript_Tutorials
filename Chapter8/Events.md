@@ -6,7 +6,9 @@
 3. Form events (submit etc.)
 4. Print event & many more
 
-* First preference always goes to js event handler code NOT to a inline event handler
+### NOTE: First preference always goes to js event handler code NOT to a inline event handler
+
+### NOTE: This is not allowed to add more than one handler on single event
 
 ## Event Object
 - It is a special object that has details about the event.
@@ -17,3 +19,14 @@ node.event = (e) => {
     // handle here
 }
 ```
+## Event Listeners
+- The addEventListener() method is the recommended way to register an event listener.
+- It allows adding more than one handler for an event. This is particularly useful for libraries, JavaScript modules, or any other kind of code that needs to work well with other libraries or extensions.
+```js
+// Add listener
+node.addEventListener(event_type, handler/callback_function/listener)
+
+// Remove listener
+node.removeEventListener(event_type, handler/callback_function/listener)
+```
+### NOTE: The callback reference should be same to remove
