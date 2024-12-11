@@ -6,9 +6,9 @@
 3. Form events (submit etc.)
 4. Print event & many more
 
-### NOTE: First preference always goes to js event handler code NOT to a inline event handler
+* NOTE: First preference always goes to js event handler code NOT to a inline event handler
 
-### NOTE: This is not allowed to add more than one handler on single event
+* NOTE: This is not allowed to add more than one handler on single event
 
 ## Event Object
 - It is a special object that has details about the event.
@@ -29,4 +29,4 @@ node.addEventListener(event_type, handler/callback_function/listener)
 // Remove listener
 node.removeEventListener(event_type, handler/callback_function/listener)
 ```
-### NOTE: The callback reference should be same to remove
+* NOTE: The callback reference should be same to remove
