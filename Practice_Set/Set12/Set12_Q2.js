@@ -1,18 +1,15 @@
-const tr = document.querySelector("tr");
-
-tr.addEventListener("mouseover", () => {
-    document.querySelector("#python").style.backgroundColor = "lightyellow";
+const btns = document.querySelectorAll(".dotted-btn");
+let reached = false;
+btns.forEach((btn) => {
+    btn.addEventListener("mouseover", () => {
+        if(reached){
+            reached = false;
+            btn.style.backgroundColor = "white";
+            btn.style.color = "black";
+        }else{
+            reached = true;
+            btn.style.color = "white";
+            btn.style.backgroundColor = "black";
+        }
+    })
 })
-tr.addEventListener("mouseover", () => {
-    document.querySelector("#java").style.backgroundColor = "lightgreen";
-})
-tr.addEventListener("mouseover", () => {
-    document.querySelector("#js").style.backgroundColor = "lightblue";
-})
-
-const dbtn = document.querySelector(".dotted-btn");
-
-dbtn.addEventListener("mouseover", () => {
-    document.querySelector(".button").style.backgroundColor = "black";
-    document.querySelector(".button").style.color = "white";
-}) 
