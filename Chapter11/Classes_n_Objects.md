@@ -11,7 +11,7 @@
 
 - A javaScript object is an entity having state & behavior (properties and method).
 - JS objects have a special property called prototype.
-- We can set prototype using \_ _ proto_ \_
+- We can set prototype using _ _ proto_ _
 - If object & prototype have same method, object's method will be used.
 
 ## classes
@@ -54,4 +54,23 @@ class Child extends Parent {
 ```js
 super(args); // calls parent's constructor
 super.parentMethod(args);
+```
+
+## Error Handling
+
+1. try
+
+- used to handle runtime errors (exceptions) in your code
+- If no errors occur, the catch block is skipped.
+
+2. catch
+
+- Executes when an error is thrown in the try block
+
+```js
+try {
+  // Statement
+} catch (err) {
+  // handling error
+}
 ```
