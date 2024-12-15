@@ -1,8 +1,8 @@
 class ToyotaCar {
-    constructor(brand, mileage){
-        this.brand = brand;
-        this.mileage = mileage;
-    }
+  constructor(brand, mileage) {
+    this.brand = brand;
+    this.mileage = mileage;
+  }
   start() {
     console.log("start");
   }
@@ -17,4 +17,6 @@ let lexus = new ToyotaCar("lexus", 12);
 console.log(lexus);
 
 let xyz = new ToyotaCar();
+xyz.brand = "xyz";
+xyz.mileage = 30;
 console.log(xyz);
